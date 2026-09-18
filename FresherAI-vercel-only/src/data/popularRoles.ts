@@ -1,0 +1,95 @@
+import { CareerArchetype } from '../types';
+
+export const POPULAR_ARCHETYPES: CareerArchetype[] = [
+  {
+    id: 'service-to-product',
+    title: 'Service IT to Product SWE',
+    targetRole: 'SDE-1 / Product Backend Engineer',
+    currentBackground: '2 YOE at TCS/Infosys/Wipro on support or legacy Java project',
+    experienceLevel: '1-3 yrs (Service IT to Product)',
+    targetCity: 'Bengaluru (ORR/Bellandur) or Hyderabad',
+    targetCompanyType: 'Product Startups & Unicorns',
+    skills: 'Java, Spring Boot, MySQL, Git',
+    badge: 'Popular Switch',
+    highlight: 'Targeting ₹14 - ₹22 LPA (3x hike from 4-6 LPA baseline)',
+  },
+  {
+    id: 'tier3-fresher',
+    title: 'Tier-3 Fresher to High-Growth Tech',
+    targetRole: 'Junior Full Stack Developer',
+    currentBackground: 'B.Tech/BCA Final Year / Recent Graduate with no on-campus offers',
+    experienceLevel: 'Fresher / 0-1 yrs',
+    targetCity: 'Pan-India / Remote or Pune',
+    targetCompanyType: 'Fast-Growing Startups & Mid-tech',
+    skills: 'JavaScript, React, Node.js, Basic DSA',
+    badge: 'Fresher Special',
+    highlight: 'Off-campus hiring roadmap with 100% free portfolio projects',
+  },
+  {
+    id: 'nontech-to-data',
+    title: 'Non-Tech (B.Com/Sales) to Data Analyst',
+    targetRole: 'Data Analyst / Business Intelligence Analyst',
+    currentBackground: 'B.Com / Operations / BPO background with good Excel skills',
+    experienceLevel: 'Career Switcher (Non-tech to Tech)',
+    targetCity: 'Gurgaon (Cyber City) or Mumbai',
+    targetCompanyType: 'Fintech, E-commerce, & GCCs',
+    skills: 'Excel, Basic SQL, Power BI, Business Acumen',
+    badge: 'No-Code to Code',
+    highlight: 'Zero-cost SQL & dashboard projects that skip DSA requirements',
+  },
+  {
+    id: 'gcc-backend',
+    title: 'Enterprise to US/Europe GCCs',
+    targetRole: 'Senior Backend Engineer / Distributed Systems',
+    currentBackground: '3-5 YOE with core microservices experience looking for stability',
+    experienceLevel: '3-6 yrs (Mid-Senior)',
+    targetCity: 'Bengaluru / Hyderabad GCC Hubs',
+    targetCompanyType: 'Global Capability Centers (JPMorgan, Target, Walmart)',
+    skills: 'Go or Java, Kafka, Kubernetes, PostgreSQL, System Design',
+    badge: 'High CTC + WLB',
+    highlight: 'Targeting ₹28 - ₹45 LPA with great work-life balance',
+  },
+  {
+    id: 'ai-ml-engineer',
+    title: 'Web Developer to Generative AI Engineer',
+    targetRole: 'AI Application Engineer / LLM Developer',
+    currentBackground: 'Frontend or Full-stack developer eager to transition to applied AI',
+    experienceLevel: '1-3 yrs (Upskilling)',
+    targetCity: 'Bengaluru or Remote',
+    targetCompanyType: 'AI First Startups & R&D Labs',
+    skills: 'Python, TypeScript, LangChain, Vector DBs, Gemini API',
+    badge: 'Trending 2026',
+    highlight: 'Hands-on RAG & AI Agent portfolio with free Colab/APIs',
+  },
+];
+
+export const INDIAN_CITIES = [
+  'Bengaluru (Silicon Valley of India)',
+  'Hyderabad (Cyberabad / Hitec City)',
+  'Pune (Hinjewadi / Magarpatta)',
+  'Gurgaon & Delhi NCR (Cyber City)',
+  'Noida (Sector 62 / Expressway)',
+  'Mumbai & Navi Mumbai',
+  'Chennai (OMR / Tidel Park)',
+  'Kolkata (Salt Lake / New Town)',
+  'Ahmedabad / Kochi / Indore / Jaipur',
+  'Remote (Work from Anywhere in India)',
+];
+
+export const EXPERIENCE_LEVELS = [
+  'College Fresher / Final Year (0 YOE)',
+  '1-3 YOE (Switching from Service IT to Product)',
+  '1-3 YOE (General Software Engineer)',
+  '3-6 YOE (Mid-Level looking for Senior/SDE-2)',
+  'Career Switcher (Non-tech / Core Engineering to Tech)',
+  'Returning to Tech after Career Break / UPSC Prep',
+];
+
+export const COMPANY_TIERS = [
+  'Product Startups (Swiggy, Razorpay, Zepto, Series A-C)',
+  'Global Capability Centers (JPMorgan, Goldman Sachs, Target, Walmart)',
+  'Top MNC Tech (Google, Microsoft, Amazon, Atlassian)',
+  'High-Growth Fintech & SaaS (Groww, Zerodha, Postman)',
+  'Product Consultancies (Thoughtworks, Accolite, Publicis)',
+  'Service IT Top Brands (TCS Digital, Cognizant GenC Next, Infosys SP)',
+];
