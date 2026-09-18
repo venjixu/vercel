@@ -1,6 +1,0 @@
-{
-  "name": "FresherAI",
-  "description": "FresherAI - ₹0 AI-powered Career Coach for Indian tech freshers and job seekers. Get personalized week-by-week roadmaps, CV ATS gap analysis, salary benchmarks in LPA, and referral outreach.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
